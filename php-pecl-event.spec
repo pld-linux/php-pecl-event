@@ -4,13 +4,12 @@
 Summary:	%{_modname} - event scheduling engine
 Summary(pl):	%{_modname} - silnik do planowania zdarzeñ
 Name:		php-pecl-%{_modname}
-Version:	0.9
+Version:	0.9.1
 Release:	1
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
-# Source0-md5:	21609efd43e0b80ed88880595faf6a25
-Patch0:		%{name}-tsrm_fix.patch
+# Source0-md5:	f009fd3519c14a027a8c85414208b61c
 URL:		http://pecl.php.net/package/event/
 BuildRequires:	libtool
 BuildRequires:	php-devel >= 3:5.0.0
@@ -43,8 +42,6 @@ To rozszerzenie ma w PECL status: %{_status}.
 
 %prep
 %setup -q -c
-cd %{_modname}-%{version}
-%patch0 -p2
 
 %build
 cd %{_modname}-%{version}
