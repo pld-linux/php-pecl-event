@@ -1,8 +1,8 @@
 %define		_modname	event
 %define		_status		beta
 
-Summary:	%{_modname} - Event Scheduling Engine
-Summary(pl):	%{_modname} - Silnik do Planowania Zdarzeniamie
+Summary:	%{_modname} - event scheduling engine
+Summary(pl):	%{_modname} - silnik do planowania zdarzeñ
 Name:		php-pecl-%{_modname}
 Version:	0.9
 Release:	1
@@ -32,9 +32,9 @@ similar but not identical.
 In PECL status of this extension is: %{_status}.
 
 %description -l pl
-To rozszerzenie pozwala na efektywne planowanie We/Wy, czasem oraz
-bazowanymi na sygna³ach zdarzeniami za pomoc± najlepszego dostêpnego
-dla systemu mechanizmu powiadamiania.
+To rozszerzenie pozwala na efektywne planowanie We/Wy, czasu oraz
+opartych na sygna³ach zdarzeñ za pomoc± najlepszego dostêpnego dla
+systemu mechanizmu powiadamiania.
 
 Jest to port biblioteki libevent do infrastruktury PHP; API jest
 podobne, jednak nie identyczne.
