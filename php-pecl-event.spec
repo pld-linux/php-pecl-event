@@ -11,7 +11,6 @@ Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	f009fd3519c14a027a8c85414208b61c
 URL:		http://pecl.php.net/package/event/
-BuildRequires:	libtool
 BuildRequires:	php-devel >= 3:5.0.0
 Requires:	php-common >= 3:5.0.0
 Obsoletes:	php-pear-%{_modname}
