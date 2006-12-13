@@ -6,7 +6,7 @@ Summary:	%{_modname} - event scheduling engine
 Summary(pl):	%{_modname} - silnik do planowania zdarzeñ
 Name:		php-pecl-%{_modname}
 Version:	0.9.1
-Release:	5
+Release:	6
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
