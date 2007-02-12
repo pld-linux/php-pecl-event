@@ -1,7 +1,7 @@
 %define		_modname	event
 %define		_status		beta
 Summary:	%{_modname} - event scheduling engine
-Summary(pl.UTF-8):   %{_modname} - silnik do planowania zdarzeń
+Summary(pl.UTF-8):	%{_modname} - silnik do planowania zdarzeń
 Name:		php-pecl-%{_modname}
 Version:	0.9.1
 Release:	6
