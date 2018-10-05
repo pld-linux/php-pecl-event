@@ -1,15 +1,15 @@
 %define		php_name	php%{?php_suffix}
 %define		modname	event
-%define		status		beta
+%define		status		stable
 Summary:	%{modname} - event scheduling engine
 Summary(pl.UTF-8):	%{modname} - silnik do planowania zdarzeń
 Name:		%{php_name}-pecl-%{modname}
-Version:	0.9.1
-Release:	9
+Version:	2.4.1
+Release:	1
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
-# Source0-md5:	f009fd3519c14a027a8c85414208b61c
+# Source0-md5:	877c364895e8770fc9a211e667a634b6
 URL:		http://pecl.php.net/package/event/
 BuildRequires:	%{php_name}-devel >= 3:5.0.0
 BuildRequires:	rpmbuild(macros) >= 1.650
@@ -71,6 +71,6 @@ fi
 
 %files
 %defattr(644,root,root,755)
-%doc CREDITS EXPERIMENTAL
+%doc CREDITS INSTALL.md README.md
 %config(noreplace) %verify(not md5 mtime size) %{php_sysconfdir}/conf.d/%{modname}.ini
 %attr(755,root,root) %{php_extensiondir}/%{modname}.so
